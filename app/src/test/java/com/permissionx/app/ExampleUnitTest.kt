@@ -1,4 +1,4 @@
-package com.sunnyweather.permissionx
+package com.permissionx.app
 
 import org.junit.Test
 
