@@ -13,7 +13,7 @@ object PermissionX {
         val exitFragment = fragmentManager.findFragmentByTag(TAG)
         val fragment = if (exitFragment != null) {
             exitFragment as InvisibleFragment
-        } else { 与
+        } else {
             val invisibleFragment = InvisibleFragment()
             fragmentManager.beginTransaction().add(invisibleFragment, TAG).commitNow()
             invisibleFragment
